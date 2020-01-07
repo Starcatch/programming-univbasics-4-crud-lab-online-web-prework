@@ -35,6 +35,6 @@ def retrieve_last_element_from_array(array)
 end
 
 def update_element_from_index(array, 4, "totally")
- x = array.count
-  array[x-1]
+  array.count
+  array[-1]
 end
